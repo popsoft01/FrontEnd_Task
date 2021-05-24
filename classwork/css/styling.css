@@ -7,3 +7,26 @@ h1{
 h2{
     text-align: center;
 }
+.begin{
+    font-style: italic;
+    color: red;
+}
+.easy{
+    color: #000;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link{
+    text-decoration:underline;
+    color:blue;
+}
+a:visited{
+    text-decoration: underline;
+    color: purple;
+}
+a:active{
+    background-color: yellow;
+}
