@@ -1,0 +1,83 @@
+
+body{
+    width: 1440px;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+
+}
+.main-div{
+    width: 800px;
+    /* height: 500px; */
+    border: 5px solid rgb(226, 225, 225);
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    position: relative;
+    font-family: 'Karla', sans-serif;
+
+    border-radius: 10px;
+    /* background-color:hsl(204, 43%, 93%); */
+
+}
+.sub-header{
+    color:hsl(71, 73%, 54%);
+}
+.p-style{
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+}
+.join-header{
+    color: rgb(4, 152, 189);
+}
+.first-div{
+    background-color: azure;
+    height: 50%;
+    padding: 12px;
+
+}
+.second-header{
+    color: hsl(204, 43%, 93%);
+}
+.second-div{
+        background-color: rgb(23, 178, 206);
+        display: flex;
+        border-radius: 5px;
+        height: 50%;
+        padding-top: 0px;
+        margin-top: 0px;
+        position: relative;
+    }
+.monthly-sub{
+    background-color: rgb(23, 178, 206);
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    padding-left: 15px;
+    font-size: 14px;
+    /* height: 100%; */
+    color: hsl(204, 43%, 93%);
+    font-family: Karla;
+}
+.why-sub{
+    display: inline-block;
+    width: 50%;
+    background-color:hsl(187, 60%, 52%) ;
+    width: 50%;
+    /* width: 720px; */
+    /* height: 100%; */
+    padding-left: 15px;
+    margin: auto;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.btn-submit{
+    color: rgb(255, 255, 255);
+    background-color: hsl(71, 73%, 54%);
+    width: 100px;
+    border-radius: 5px;
+    border:5px solid hsl(71, 73%, 54%);
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+}
