@@ -30,3 +30,13 @@ a:visited{
 a:active{
     background-color: yellow;
 }
+table{
+    border: 2px solid cornsilk;
+    text-align: justify;
+    
+}
+tr,td,th{
+    border: 2px solid cornsilk;
+    text-align: justify;
+    width: 680px;
+}
