@@ -30,7 +30,25 @@
             </td>
             </tr>
         </table>
-    <p><a href="index.html">Back</a></p>
-    
-</body>
+        <form action="process.php" method="POST">
+            <fieldset>
+                <legend>Details</legend>
+                <p>
+                    <label for="">Title</label>
+                    <input type="text"name="title" >
+                </p>
+                <p>
+                    <label for="">Country</label>
+                    <select>
+                        <option>Choose a country</option>
+                        <option>Canada</option>
+                        <option value="">Finland</option>
+                        <option>United States</option>
+                    </select>
+                </p>
+                <input type="submit">
+            </fieldset>
+        </form>
+        <p><a href="index.html">Back</a></p>
+    </body>
 </html>
