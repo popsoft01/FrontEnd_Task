@@ -5,7 +5,7 @@ table{
     
 }
 tr,td,th{
-    border: 2px solid cornsilk;
+    border: 2px solid blue;
     text-align: justify;
     width: 680px;
 }
@@ -15,4 +15,7 @@ td{
 }
 img{
     width:500px; 
+}
+.four-image{
+    align-content: center;
 }
