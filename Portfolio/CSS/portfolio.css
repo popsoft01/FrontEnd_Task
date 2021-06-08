@@ -11,9 +11,13 @@ li{
     top: 20px;
     list-style: none;
     float: right;
-    width: 50px;
+    /* width: 50px; */
     margin: 20px;
 }
+.main-body{
+
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
