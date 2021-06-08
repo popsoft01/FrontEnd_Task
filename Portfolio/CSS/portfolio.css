@@ -22,6 +22,7 @@ li{
 }
 .product-designer{
     display: flex;
+    height: 400px;
     /* width: 50%; */
 }
 .content-div{
