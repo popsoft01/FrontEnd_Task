@@ -4,6 +4,7 @@ body{
 }
 .topbar{
     display: flex;
+    background-color: burlywood;
     /* display: inline-block; */
     /* height: 30px; */
 }
@@ -22,14 +23,20 @@ li{
 }
 .product-designer{
     display: flex;
-    height: 400px;
+    height: 500px;
+    margin: 40px;
+    background-color: rgb(139, 129, 129);
     /* width: 50%; */
 }
 .content-div{
     width: 50%;
+    margin-bottom: 20px;
 }
 .designer-image-div{
     width: 40%;
+}
+.product-designer{
+    height: 100px;
 }
 .about-me{
     display: flex;
@@ -45,13 +52,11 @@ li{
     margin: 5px 2px;
     color: #000;
   }
-  .product-designer{
+ 
+  /* .asset1{
       height: 100px;
-  }
-  .asset1{
-      height: 300%;
       width: 80%;
-  }
+  } */
   .loving2{
       height: 300px;
       width: 80%;
