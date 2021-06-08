@@ -1,3 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    display: flex;
+    /* display: inline-block; */
+    height: 30px;
+}
+li{
+    top: 20px;
+    list-style: none;
+    float: right;
+    width: 50px;
+    margin: 20px;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -5,6 +21,7 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    color: #000;
   }
   .product-designer{
       height: 100px;
