@@ -1,11 +1,14 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 40px;
 }
 .topbar{
     display: flex;
     /* display: inline-block; */
-    height: 30px;
+    /* height: 30px; */
+}
+.web-logo{ 
+    margin-right: 70%;
 }
 li{
     top: 20px;
@@ -16,6 +19,16 @@ li{
 }
 .main-body{
 
+}
+.product-designer{
+    display: flex;
+    /* width: 50%; */
+}
+.content-div{
+    width: 50%;
+}
+.designer-image-div{
+    width: 50%;
 }
 
 .fa {
