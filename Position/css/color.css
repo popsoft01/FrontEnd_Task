@@ -1,0 +1,17 @@
+header{
+    background-color: blue;
+}
+
+nav{
+    background-color: rgb(174, 184, 179);
+    width: 300px;
+    float: left;
+}
+.second{
+    background-color: yellow;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
