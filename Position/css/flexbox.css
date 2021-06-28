@@ -1,0 +1,7 @@
+.media{
+    display:flex;
+    align-items: flex-end;
+}
+.media-image{
+    margin-right: 1em;
+}

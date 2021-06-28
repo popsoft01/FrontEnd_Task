@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+@media screen and (max-width:480){
+    body{
+    background-color: lightgreen;
+    
+}}
+.menu{
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.bessy-flex{
+    background-color: blue;
+    display:flex;
+    align-items: flex-end;
+}
+.bessy-greet{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 1opx;
+}
+.bessy-name{
+    background-color: brown;
+    padding: 20px;
+    margin: 1opx;
+}
+.bessy-jane{
+    background-color: chocolate;
+    padding: 20px;
+    margin: 1opx;
+}
