@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        document.write("here is the Ori");
+        // document.write('<metacharset="UTF-8">');
+    </script>
     <link rel="stylesheet" href="css/flexColumn.css">
 </head>
 <div class="menu">
@@ -14,6 +18,19 @@
 </div>
 <body class="bessy-flex">
     <div>
+        <script>
+            let hourOfDay = 6;
+            if(hourOfDay >4 && hourOfDay<12){
+                greeting ="Good Morning"
+            }
+            else if(hourOfDay >=12 && hourOfDay < 18){
+                greeting ="Good Afternoon";
+            }else{
+                greeting = "Good Evening";
+            }
+            // document.write("in the body");
+            // document.write("<")
+        </script>
         <div class="bessy-greet">
             <p>Hello world</p>
         </div>
@@ -23,6 +40,42 @@
         <div class="bessy-jane">
             <p>Hello Bessy-Jane</p>
         </div>
+        <script>
+            artType = "PT";
+            var output = " ";
+            switch(artType){
+                case "PT":
+                    output = "Painting";
+                    break;
+                case "SC":
+                    output = "Scripture";
+                default:
+                    output = "Other";
+            }
+            document.write(output)
+         </script>
     </div>
+    <script>
+    //    hourOfDay = 6;
+    //     var greeting = " ";
+    //         if(hourOfDay >4 && hourOfDay<12){
+    //             greeting ="Good Morning"
+    //         }
+    //         else if(hourOfDay >=12 && hourOfDay < 18){
+    //             greeting ="Good Afternoon";
+    //         }else{
+    //             greeting = "Good Evening";  
+    //         }
+    //         document.write(greeting);
+
+    var collect = parseInt(prompt('Enter the number'));
+    let sum = 0;
+    while (collect >= 0){
+        sum += collect;
+        collect = parseInt(prompt('Enter the number'));
+        document.write(collect + "\n");
+    }
+        document.write(sum);
+    </script>
 </body>
 </html>
